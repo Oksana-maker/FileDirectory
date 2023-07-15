@@ -1,0 +1,9 @@
+try (InputStream in = new FileInputStream("cars.dat");
+             Scanner scanner = new Scanner(in)) {
+            while (true) {
+                try {
+                    String line = scanner.nextLine();
+                    String[] parts = line.split(",");
+                    cars.add(new Car(parts[0].trim(), parts[1].trim(), new BigDecimal(parts[2].trim())));
+                } catch (NoSuchElementException ex) {
+                    break;

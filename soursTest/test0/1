@@ -1,0 +1,3 @@
+C:\Users\LENOVO\.jdks\corretto-18.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.3\lib\idea_rt.jar=52663:C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.3\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\LENOVO\.jdks\corretto-18.0.2;C:\Users\LENOVO\Downloads\FileDirectory\target\classes org.mashurova.Main
+
+Process finished with exit code 0
